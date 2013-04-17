@@ -1,0 +1,8 @@
+name = Pradip Shrestha Core
+description = Allows enable/disable module via update.php and provides custom functionalities.
+package = PradipShrestha
+version = VERSION
+core = 7.x
+
+version = "7.1"
+
