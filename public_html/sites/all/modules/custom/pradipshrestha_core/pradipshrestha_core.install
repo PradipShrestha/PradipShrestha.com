@@ -1,1 +1,54 @@
 <?php
+
+/**
+ * Enabled ctools, features and views modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7000(&$sandbox){
+    module_enable(array('ctools','page_manager', 'views', 'views_ui', 'features'));
+}
+
+/**
+ * Enabled ctools and views modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7001(&$sandbox){
+    module_enable(array('ctools','page_manager', 'views', 'views_ui'));
+}
+
+
+/**
+ * Enabled link and dates modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7002(&$sandbox){
+    module_enable(array('link','date', 'date_views'));
+}
+
+/**
+ * Enabled media and file entity modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7003(&$sandbox){
+    module_enable(array('media','file_entity'));
+}
+
+/**
+ * Enabled flexslider modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7004(&$sandbox){
+    module_enable(array('flexslider'));
+}
+
+
+/**
+ * Enabled wysiwyg, libraries modules.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7005(&$sandbox){
+    module_enable(array('wysiwyg', 'libraries', 'flexslider'));
+}
+
+
+
