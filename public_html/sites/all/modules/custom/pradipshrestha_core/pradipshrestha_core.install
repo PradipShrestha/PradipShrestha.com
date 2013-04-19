@@ -59,4 +59,17 @@ function pradipshrestha_core_update_7012(&$sandbox){
     theme_enable(array('ps'));
 }
 
+/**
+ * Disabled theme.
+ */
+function pradipshrestha_core_update_7013(&$sandbox){
+    theme_disable(array('omega', 'alpha'));
+}
+
+/**
+ * Enabled omega_tools module.
+ */
+function pradipshrestha_core_update_7014(&$sandbox){
+    module_enable(array('omega_tools'));
+}
 
