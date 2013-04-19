@@ -51,3 +51,12 @@ function pradipshrestha_core_update_7011(&$sandbox){
 }
 
 
+/**
+ * Enabled ps theme.
+ * @param type $sandbox
+ */
+function pradipshrestha_core_update_7012(&$sandbox){
+    theme_enable(array('ps'));
+}
+
+
