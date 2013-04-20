@@ -4,6 +4,17 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
+
+; CSS GRID SYSTEMS
+
+grids[pradipsh_default][name] = PradipSh Default
+grids[pradipsh_default][layouts][normal] = Normal
+grids[pradipsh_default][layouts][narrow] = Narrow
+grids[pradipsh_default][columns][12] = 12 Columns
+grids[pradipsh_default][columns][16] = 16 Columns
+grids[pradipsh_default][columns][24] = 24 Columns
+
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
@@ -349,3 +360,6 @@ settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
 version = '1.x'
+
+; PLUGINS
+plugins[panels][layouts] = panels/layouts

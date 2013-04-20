@@ -4,72 +4,90 @@
  * Enabled ctools, features and views modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7006(&$sandbox){
-    module_enable(array('ctools','page_manager', 'views', 'views_ui', 'features'));
+function pradipshrestha_core_update_7006(&$sandbox) {
+    module_enable(array('ctools', 'page_manager', 'views', 'views_ui', 'features'));
 }
 
 /**
  * Enabled ctools and views modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7007(&$sandbox){
-    module_enable(array('ctools','page_manager', 'views', 'views_ui'));
+function pradipshrestha_core_update_7007(&$sandbox) {
+    module_enable(array('ctools', 'page_manager', 'views', 'views_ui'));
 }
-
 
 /**
  * Enabled link and dates modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7008(&$sandbox){
-    module_enable(array('link','date', 'date_views'));
+function pradipshrestha_core_update_7008(&$sandbox) {
+    module_enable(array('link', 'date', 'date_views'));
 }
 
 /**
  * Enabled media and file entity modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7009(&$sandbox){
-    module_enable(array('media','file_entity'));
+function pradipshrestha_core_update_7009(&$sandbox) {
+    module_enable(array('media', 'file_entity'));
 }
 
 /**
  * Enabled flexslider modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7010(&$sandbox){
+function pradipshrestha_core_update_7010(&$sandbox) {
     module_enable(array('flexslider'));
 }
-
 
 /**
  * Enabled wysiwyg, libraries modules.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7011(&$sandbox){
+function pradipshrestha_core_update_7011(&$sandbox) {
     module_enable(array('wysiwyg', 'libraries', 'flexslider'));
 }
-
 
 /**
  * Enabled ps theme.
  * @param type $sandbox
  */
-function pradipshrestha_core_update_7012(&$sandbox){
+function pradipshrestha_core_update_7012(&$sandbox) {
     theme_enable(array('ps'));
 }
 
 /**
  * Disabled theme.
  */
-function pradipshrestha_core_update_7013(&$sandbox){
+function pradipshrestha_core_update_7013(&$sandbox) {
     theme_disable(array('omega', 'alpha'));
 }
 
 /**
  * Enabled omega_tools module.
  */
-function pradipshrestha_core_update_7014(&$sandbox){
+function pradipshrestha_core_update_7014(&$sandbox) {
     module_enable(array('omega_tools'));
+}
+
+/**
+ * Enabled panels, panels_mini, panels_node and panels_ipe module.
+ */
+function pradipshrestha_core_update_7015(&$sandbox) {
+    module_enable(array('panels', 'panels_mini', 'panels_node', 'panels_ipe'));
+}
+
+/**
+ * Enabled context, delta module.
+ */
+function pradipshrestha_core_update_7016(&$sandbox) {
+    module_enable(array('context', 'delta'));
+}
+
+/**
+ * Enabled misc context, delta module.
+ */
+function pradipshrestha_core_update_7017(&$sandbox) {
+    module_enable(array('context_ui', 'context_layouts', 'delta_blocks', 'delta_color', 'delta_ui'));
 }
 
