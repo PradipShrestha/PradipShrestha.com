@@ -119,3 +119,9 @@ function pradipshrestha_core_update_7022(&$sandbox) {
     module_enable(array('pradipsh_global', 'pradipsh_taxonomy', 'pradipsh_simple_content_type'));
 }
 
+/**
+ * Enabled pradipsh_home modules.
+ */
+function pradipshrestha_core_update_7023(&$sandbox) {
+    module_enable(array('pradipsh_home'));
+}

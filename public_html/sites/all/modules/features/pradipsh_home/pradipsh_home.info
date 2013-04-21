@@ -1,0 +1,17 @@
+name = Pradipsh home
+description = Defines home page features
+core = 7.x
+package = pradipsh
+version = 7.x-1.0
+project = pradipsh_home
+dependencies[] = context
+dependencies[] = delta
+dependencies[] = pradipsh_global
+dependencies[] = pradipsh_simple_content_type
+dependencies[] = pradipsh_taxonomy
+features[context][] = single-column-layout
+features[ctools][] = context:context:3
+features[ctools][] = delta:delta:3
+features[delta][] = single_column_layout
+features[features_api][] = api:1
+project path = sites/all/modules/features
