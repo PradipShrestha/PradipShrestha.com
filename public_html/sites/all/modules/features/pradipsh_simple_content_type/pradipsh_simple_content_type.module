@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pradipsh simple content type feature.
+ */
+
+include_once 'pradipsh_simple_content_type.features.inc';

@@ -91,3 +91,31 @@ function pradipshrestha_core_update_7017(&$sandbox) {
     module_enable(array('context_ui', 'context_layouts', 'delta_blocks', 'delta_color', 'delta_ui'));
 }
 
+/**
+ * Enabled nice_menus module.
+ */
+function pradipshrestha_core_update_7018(&$sandbox) {
+    module_enable(array('nice_menus'));
+}
+
+/**
+ * Enabled fontyourface, google_font_api module.
+ */
+function pradipshrestha_core_update_7020(&$sandbox) {
+    module_enable(array('fontyourface', 'fontyourface_ui', 'google_fonts_api', 'fontyourface_wysiwyg'));
+}
+
+/**
+ * Enabled strongarm module.
+ */
+function pradipshrestha_core_update_7021(&$sandbox) {
+    module_enable(array('strongarm'));
+}
+
+/**
+ * Enabled pradipsh_global, pradipsh_taxonomy modules.
+ */
+function pradipshrestha_core_update_7022(&$sandbox) {
+    module_enable(array('pradipsh_global', 'pradipsh_taxonomy', 'pradipsh_simple_content_type'));
+}
+
