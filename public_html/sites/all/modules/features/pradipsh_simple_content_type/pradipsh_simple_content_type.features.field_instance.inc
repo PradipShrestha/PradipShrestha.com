@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pradipsh_global.features.field_instance.inc
+ * pradipsh_simple_content_type.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function pradipsh_global_field_default_field_instances() {
+function pradipsh_simple_content_type_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'comment-comment_node_article-comment_body'
@@ -316,6 +316,43 @@ function pradipsh_global_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-article-field_tags'
+  $field_instances['node-article-field_tags'] = array(
+    'bundle' => 'article',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tags',
+    'label' => 'Tags',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 0,
+    ),
+  );
+
   // Exported field_instance: 'node-page-body'
   $field_instances['node-page-body'] = array(
     'bundle' => 'page',
@@ -366,6 +403,7 @@ function pradipsh_global_field_default_field_instances() {
   t('Body');
   t('Comment');
   t('Image');
+  t('Tags');
   t('Title Text');
   t('Title text attribute');
   t('Upload an image to go with this article.');
