@@ -28,7 +28,7 @@ function pradipsh_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'maintenance_mode';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['maintenance_mode'] = $strongarm;
 
   $strongarm = new stdClass();
