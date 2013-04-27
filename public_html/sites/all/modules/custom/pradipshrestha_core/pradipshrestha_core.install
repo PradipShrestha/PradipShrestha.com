@@ -125,3 +125,24 @@ function pradipshrestha_core_update_7022(&$sandbox) {
 function pradipshrestha_core_update_7023(&$sandbox) {
     module_enable(array('pradipsh_home'));
 }
+
+/**
+ * Enabled jquery_update modules.
+ */
+function pradipshrestha_core_update_7024(&$sandbox) {
+    module_enable(array('jquery_update'));
+}
+
+/**
+ * Enabled pradipsh_media, views_content modules.
+ */
+function pradipshrestha_core_update_7025(&$sandbox) {
+    module_enable(array('pradipsh_media', 'views_content'));
+}
+
+/**
+ * Enabled entity_view_mode, field_formatter_settings, field_formatter_class modules.
+ */
+function pradipshrestha_core_update_7026(&$sandbox) {
+    module_enable(array('entity_view_mode', 'field_formatter_settings', 'field_formatter_class'));
+}

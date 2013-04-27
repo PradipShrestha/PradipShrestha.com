@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pradipsh settings feature.
+ */
+
+include_once 'pradipsh_settings.features.inc';

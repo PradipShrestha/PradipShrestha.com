@@ -1,2 +1,14 @@
 <?php
-?>
+
+/**
+ * Implements hook_menu_alter().
+ */
+//function pradipshrestha_core_menu_alter(&$items) {
+//  $items['admin/content/file']['page callback'] = 'drupal_goto';
+//  $items['admin/content/file']['page arguments'] = array('admin/content/files');
+//  $items['admin/content/file']['file'] = '';
+//  $items['admin/content/file']['access callback'] = TRUE;
+//  
+//  $items['admin/content/file/import']['type'] = MENU_SUGGESTED_ITEM;
+//  $items['admin/content/file/thumbnails']['type'] = MENU_SUGGESTED_ITEM;
+//}

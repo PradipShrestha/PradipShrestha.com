@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pradipsh media feature.
+ */
+
+include_once 'pradipsh_media.features.inc';
