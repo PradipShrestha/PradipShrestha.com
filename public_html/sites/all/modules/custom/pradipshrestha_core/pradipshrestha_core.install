@@ -134,10 +134,10 @@ function pradipshrestha_core_update_7024(&$sandbox) {
 }
 
 /**
- * Enabled pradipsh_media, views_content modules.
+ * Enabled pradipsh_media, pradipsh_settings, views_content modules.
  */
 function pradipshrestha_core_update_7025(&$sandbox) {
-    module_enable(array('pradipsh_media', 'views_content'));
+    module_enable(array('pradipsh_media', 'pradipsh_settings', 'views_content'));
 }
 
 /**
