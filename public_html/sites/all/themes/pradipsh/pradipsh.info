@@ -5,6 +5,9 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
 
+;SCRIPTS
+scripts[] = js/pradipsh.js
+
 ; CSS GRID SYSTEMS
 
 grids[pradipsh_default][name] = PradipSh Default
